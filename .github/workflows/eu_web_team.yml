@@ -10,10 +10,10 @@ jobs:
       - uses: actions/checkout@v4
       - uses: 5hojib/heroku-deploy-action@v2
         with:
-          heroku_api_key: 'HRKU-7a78efb9-9f12-4c42-a126-0ee9379cca81'
-          heroku_app_name: 'sadas12'
-          heroku_email: 'heruko0202@gmail.com'
-          team: ''
+          heroku_api_key: 'HRKU-cb5ac525-c15e-4327-8b8b-9f5807ed9b6d'
+          heroku_app_name: 'noice42'
+          heroku_email: 'a1.streamflix@outlook.com'
+          team: 'streamflix-team2'
           usedocker: true
           docker_heroku_process_type: web
           stack: "container"
